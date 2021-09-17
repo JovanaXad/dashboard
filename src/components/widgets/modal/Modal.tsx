@@ -70,7 +70,7 @@ const Modal: React.FC<{
     <ModalContainer>
       <P>Izmeni title:</P>
       <Textarea defaultValue={title} rows={4} {...register("title")} />
-      <Button type="submit" onClick={fetchChange}>
+      <Button type="button" onClick={fetchChange}>
         Submit
       </Button>
     </ModalContainer>

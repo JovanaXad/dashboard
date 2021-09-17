@@ -1,6 +1,6 @@
 export interface ButtonProps {
   children: string;
-  type: "submit";
+  type: "submit" | "button";
   width?: string;
   onClick?: any;
 }

@@ -8,21 +8,6 @@ const TextareaWrapper = styled.textarea`
   padding: 0.5rem;
 `;
 
-// export const Textarea: React.FC<{ defaultValue: string; rows: number }> = (
-//   props
-// ): JSX.Element => {
-//   return <TextareaWrapper {...props} />;
-// };
-
-// export const TextareaComponent: React.FC<{
-//   defaultValue: string;
-//   rows: number;
-// }> = (props): JSX.Element => {
-//   return <TextareaWrapper {...props} />;
-// };
-
-// type ComponentProps =  React.InputHTMLAttributes<HTMLInputElement>
-
 interface PropsType {
   defaultValue: string;
   rows: number;
