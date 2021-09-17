@@ -40,17 +40,11 @@ const Modal: React.FC<{
     formState: { errors },
   } = useForm();
 
-  console.log("test", watch("title"));
-
   const data = { title: watch("title"), page };
-
-  console.log("test data", data);
 
   const fetchChange = async () => {
     modalHandler();
     const { title } = data;
-
-    console.log("test title", title);
 
     if (title) {
       try {
