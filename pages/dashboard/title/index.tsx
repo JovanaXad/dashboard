@@ -5,7 +5,7 @@ const TableWidget = dynamic(() =>
   import("src/components/widgets").then((module) => module.TableWidget)
 );
 import { server } from "config/server";
-const url = `${server}/api/titles/update-title`;
+const url = "/api/titles/update-title";
 const apiUrl = `${server}/api/titles`;
 
 const TitlePage: React.FC<{ titles: object[] }> = ({ titles }) => {

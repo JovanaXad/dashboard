@@ -39,10 +39,14 @@ const Modal: React.FC<{
     formState: { errors },
   } = useForm();
 
+  console.log("test", url);
+
   const fetchChange = async () => {
     modalHandler();
     const data = { title: watch("title"), page };
     const { title } = data;
+
+    console.log("test title", title);
 
     if (title) {
       try {
