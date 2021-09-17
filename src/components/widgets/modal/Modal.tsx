@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { Textarea, Button } from "src/components/ui";
+import { Textarea } from "src/components/ui/textarea";
+import { Button } from "src/components/ui";
 import { useForm } from "react-hook-form";
 import { server } from "config/server";
 
